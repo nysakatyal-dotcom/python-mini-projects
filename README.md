@@ -59,7 +59,7 @@ An interactive game in which the user guesses a randomly generated number betwee
 ## 🎬 Animated GIF Preview
 
 -![Animated Team gif](team.gif)
-*An animated GIF created using Python's ImageIO library from two images.*
+***An animated GIF created using Python's ImageIO library from two images.**
 ## 🛠️ Technologies & Tools
 
 - **Programming Language:** Python 3
