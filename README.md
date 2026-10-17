@@ -1,33 +1,39 @@
-Python Mini Projects
+Python Mini Projects 
 
-A collection of beginner-friendly Python programs developed while learning programming as a BCA student.
+A collection of beginner-friendly Python programs created while learning programming as a second-year BCA student.
 
 Projects
 
 1. Student Grade Calculator
 
-A Python program that accepts a student’s name and marks, then displays the corresponding grade.
+Accepts a student’s name and marks.
+Assigns a grade based on marks.
+Validates marks between 0 and 100.
 
-Features
+Concepts: Variables, user input, conditional statements.
 
-Accepts student name and marks as input
-Assigns grades based on marks
-Checks whether marks are within the valid range
+2. Number Guessing Game
 
-Technologies Used
+Generates a random number between 1 and 20.
+Gives hints when a guess is too high or too low.
+Tracks the number of attempts.
+Handles invalid input.
+
+Concepts: Loops, conditionals, random module, exception handling.
+
+Technologies
 
 Python 3
-Conditional statements
-User input and variables
+GitHub
 
-What I’m Learning
+Learning Goals
 
-Python programming fundamentals
-Problem-solving
-Building and documenting projects with GitHub
+Strengthen programming fundamentals.
+Practise problem-solving.
+Learn to document and maintain projects using GitHub.
 
 Future Improvements
 
-Add more Python mini projects
-Improve input validation
-Add a student marks management program
+Add more Python projects.
+Improve input validation.
+Build a student record management system.
