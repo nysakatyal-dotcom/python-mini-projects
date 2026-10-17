@@ -99,7 +99,7 @@ python3 Grade_calculator.py
 python3 Number_guessing_game.py
 ```
 
-**5. Generate the Animated GIF**
+**5. the Animated GIF**
 
 Ensure both input images are in the project directory, then run:
 
@@ -108,6 +108,31 @@ python3 create_gif.py
 ```
 
 The output filename depends on the filename specified in the Python script.
+
+## 🧪 Testing and Validation
+
+-The Python projects were tested locally using Python 3 on macOS.*
+### 1. Student Grade Calculator
+-Tested the program with a student’s name and marks.
+-Verified that the program displayed the corresponding grade.
+-Tested a score of 89/100 and confirmed that it returned Grade A.
+### 2. Number Guessing Game
+-Verified that the game generated a random number between 1 and 20.
+-Tested higher and lower guesses.
+-Checked that the attempt counter worked correctly.
+-Tested invalid text input.
+-Verified that the game displayed a winning message after the correct guess.
+### 3. Animated GIF Creator
+-Ran the Python script using macOS Terminal.
+-Used the imageio library to create an animated GIF from two images.
+-Checked the generated GIF output.
+## 💻 Development Environment
+***Programming Language:** Python 3
+***Operating System:** macOS
+***Library:** ImageIO
+***Package Manager:** pip
+***Tools:** Python IDLE, Terminal, Git, and GitHub
+
 
 ## 🎯 Learning Goals
 
