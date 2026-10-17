@@ -35,7 +35,7 @@ An interactive game in which the user guesses a randomly generated number betwee
 
 ### 3. Animated GIF Creator
 
-A Python program that combines two JPEG images into an animated GIF using the `imageio` library.
+-A Python program that combines two JPEG images into an animated GIF using the `imageio` library.
 
 **Features:**
 - Reads two images from files.
