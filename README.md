@@ -58,7 +58,7 @@ An interactive game in which the user guesses a randomly generated number betwee
 
 ## 🎬 Animated GIF Preview
 
-![Animated Team GIF](team.GIF)
+-![Animated Team gif](team.gif)
 
 ## 🛠️ Technologies & Tools
 
