@@ -1,164 +1,172 @@
 # 🐍 Python Mini Projects
 
-A collection of beginner-friendly Python projects developed while learning programming as a second-year Bachelor of Computer Applications (BCA) student.
+Welcome to my Python Mini Projects repository! 👋
 
-## 📂 Projects
-
-### 1. Student Grade Calculator
-
-A Python program that calculates a student's grade based on their marks.
-
-**Features:**
-- Accepts the student's name and marks.
-- Assigns a grade using conditional statements.
-- Validates marks between 0 and 100.
-
-**Concepts Used:**
-- Variables and user input
-- Conditional statements
-- Input validation
-
-### 2. Number Guessing Game
-
-An interactive game in which the user guesses a randomly generated number between 1 and 20.
-
-**Features:**
-- Generates a random number between 1 and 20.
-- Provides hints when a guess is too high or too low.
-- Tracks the number of attempts.
-- Handles invalid input.
-
-**Concepts Used:**
-- Loops and conditional statements
-- Python's `random` module
-- Exception handling
-
-### 3. Animated GIF Creator
-
--A Python program that combines two JPEG images into an animated GIF using the `imageio` library.
-
-**Features:**
-- Reads two images from files.
-- Combines the images into an animated GIF.
-- Sets animation duration and looping behavior.
-- Saves the generated animation as `team.GIF`.
-
-**Project Files:**
-- `create_gif.py` — Python script
-- `image1.jpg` — First input image
-- `image2.jpg` — Second input image
-- `team.GIF` — Animated output
-- `requirements.txt` — Project dependencies
-
-**Concepts Used:**
-- File handling
-- Python libraries
-- Image processing
-- Dependency management
-
-## 🎬 Animated GIF Preview
-
-![Animated Team gif](team.gif)
-
-***An animated GIF created using Python's ImageIO library from two images.**
+I'm a second-year Bachelor of Computer Applications (BCA) student passionate about programming, technology, and continuous learning. This repository showcases my journey of learning Python through practical projects that strengthen my programming fundamentals, logical thinking, and problem-solving skills.
 
 ## 🛠️ Technologies & Tools
 
-- **Programming Language:** Python 3
-- **Library:** ImageIO
-- **Version Control:** Git and GitHub
-- **Development Environment:** Python IDLE and Terminal
-- **Package Management:** pip
+- **Python:** Programming language used to develop the projects.
+- **Python Standard Library:** Built-in modules for programming functionality.
+- **ImageIO:** Library for image processing and GIF creation, if used by the GIF project.
+- **Git & GitHub:** Version control and project management.
+- **Code Editor:** For writing, testing, and debugging Python programs.
 
-## ⚙️ Installation and Usage
+## 📂 Projects
+
+### 1. 🎓 Student Grade Calculator
+
+A Python program that calculates a student's grade based on their marks. It accepts the student's name and marks, validates the input, and assigns a grade using conditional statements.
+
+**Features:**
+- Accepts the student's name and marks.
+- Assigns a grade based on the marks entered.
+- Validates marks within the range of 0 to 100.
+- Uses conditional statements to determine the grade.
+
+**Concepts Used:**
+- Variables and user input
+- Conditional statements (`if`, `elif`, and `else`)
+- Input validation
+- Comparison and logical operators
+
+**Learning Outcome:**
+
+Developed an understanding of conditional logic, user input, and validation while building a practical grading application.
+
+**File:** `Grade_calculator.py`
+
+### 2. 🎯 Number Guessing Game
+
+An interactive command-line game in which the user tries to guess a randomly generated number between 1 and 20. The program provides hints to help the player determine whether their guess is too high or too low.
+
+**Features:**
+- Generates a random number between 1 and 20.
+- Accepts guesses from the user.
+- Provides hints when a guess is too high or too low.
+- Allows the player to keep guessing until the correct number is found.
+
+**Concepts Used:**
+- Random number generation
+- Variables and user input
+- Conditional statements
+- Loops and repetition
+- Comparison operators
+
+**Learning Outcome:**
+
+Practised using Python's random module, implementing game logic, and controlling program flow through conditions and loops.
+
+**File:** `Number_guessing_game.py`
+
+### 3. 🖼️ Python GIF Creator
+
+A Python project that combines image files to create an animated GIF. This project explores how Python can be used for basic image processing and the creation of animated visual content.
+
+**Features:**
+- Uses image files as input.
+- Processes images using a Python script.
+- Creates an animated GIF.
+- Demonstrates the practical application of Python libraries.
+
+**Concepts Used:**
+- Working with external libraries
+- Image processing
+- File handling
+- Creating animated media
+
+**Learning Outcome:**
+
+Explored how Python can process image files and generate an animated output through programming.
+
+**Project Files:**
+- `create_gif.py`
+- `image1.jpg`
+- `image2.jpg`
+- `team.gif`
+- `requirements.txt`
+
+## ▶️ How to Run the Projects
 
 **Prerequisites:**
-- Python 3 installed
-- pip available
+- Python 3 installed on your computer.
+- A Python-compatible code editor or terminal.
+- Required dependencies installed for the GIF Creator.
 
-**1. Clone the repository**
+**Step 1: Download the Repository**
 
-```bash
-git clone https://github.com/nysakatyal-dotcom/python-mini-projects.git
-cd python-mini-projects
-```
+Clone the repository:
 
-**2. Install dependencies**
+    git clone https://github.com/nysakatyal-dotcom/python-mini-projects.git
 
-```bash
-python3 -m pip install -r requirements.txt
-```
+Open the project directory:
 
-**3. Run the Student Grade Calculator**
+    cd python-mini-projects
 
-```bash
-python3 Grade_calculator.py
-```
+Alternatively, download the repository as a ZIP file from GitHub and extract it.
 
-**4. Run the Number Guessing Game**
+**Step 2: Run the Student Grade Calculator**
 
-```bash
-python3 Number_guessing_game.py
-```
+    python Grade_calculator.py
 
-**5. the Animated GIF**
+**Step 3: Run the Number Guessing Game**
 
-Ensure both input images are in the project directory, then run:
+    python Number_guessing_game.py
 
-```bash
-python3 create_gif.py
-```
+**Step 4: Run the Python GIF Creator**
 
-The output filename depends on the filename specified in the Python script.
+Install the dependencies listed in `requirements.txt`:
 
-## 🧪 Testing and Validation
+    pip install -r requirements.txt
 
--The Python projects were tested locally using Python 3 on macOS.*
-### 1. Student Grade Calculator
--Tested the program with a student’s name and marks.
--Verified that the program displayed the corresponding grade.
--Tested a score of 89/100 and confirmed that it returned Grade A.
-### 2. Number Guessing Game
--Verified that the game generated a random number between 1 and 20.
--Tested higher and lower guesses.
--Checked that the attempt counter worked correctly.
--Tested invalid text input.
--Verified that the game displayed a winning message after the correct guess.
-### 3. Animated GIF Creator
--Ran the Python script using macOS Terminal.
--Used the imageio library to create an animated GIF from two images.
--Checked the generated GIF output.
-## 💻 Development Environment
-***Programming Language:** Python 3
-***Operating System:** macOS
-***Library:** ImageIO
-***Package Manager:** pip
-***Tools:** Python IDLE, Terminal, Git, and GitHub
+Run the script:
 
+    python create_gif.py
 
-## 🎯 Learning Goals
+**Note:** Keep the required image files in the locations expected by `create_gif.py`. Depending on your Python installation, you may need to use `python3` instead of `python`.
 
-- Strengthen Python programming fundamentals.
-- Practise problem-solving through coding.
-- Understand loops, conditions, and exception handling.
-- Learn to use external Python libraries.
-- Practise file handling and basic image processing.
-- Learn to document projects using GitHub.
+## 🎯 Learning Objectives
 
-## 🚀 Future Improvements
+Through these projects, I aim to:
 
-- Add more beginner-friendly Python projects.
-- Improve input validation and error handling.
-- Build a student record management system.
-- Explore web development and database integration.
-- Develop more advanced programming projects.
+- Strengthen my understanding of Python programming.
+- Practise conditional statements and loops.
+- Improve input handling and validation.
+- Understand random number generation.
+- Explore image processing and Python libraries.
+- Improve logical thinking and problem-solving skills.
+- Develop confidence in writing, testing, and debugging code.
+- Build a strong foundation for more advanced programming projects.
+
+## 🌱 Future Improvements
+
+- Improve error handling and input validation.
+- Add more features to the Student Grade Calculator.
+- Enhance the Number Guessing Game with additional difficulty levels.
+- Explore more image-processing features in the GIF Creator.
+- Learn file handling and data processing.
+- Develop more interactive Python applications.
+- Build projects that solve practical problems.
 
 ## 👩‍💻 About Me
 
-I'm a second-year BCA student interested in programming and software development. This repository showcases my learning journey through practical projects.
+I'm a second-year Bachelor of Computer Applications (BCA) student interested in programming, software development, and technology.
 
-**GitHub Profile:** [nysakatyal-dotcom](https://github.com/nysakatyal-dotcom)
+I enjoy exploring new concepts and applying my knowledge through practical projects. I'm developing my skills in Python and web development while working towards becoming a skilled software developer.
+
+## 🌐 Explore My Other Projects
+
+- **Web Development Projects:** [View Repository](https://github.com/nysakatyal-dotcom/web-development-projects)
+- **Personal Portfolio:** [Visit Website](https://nysakatyal-dotcom.github.io/web-development-projects/)
+- **Interactive Calculator:** [Try Calculator](https://nysakatyal-dotcom.github.io/web-development-projects/calculator/)
+- **UNPLUGGED 2026 Event Website:** [Visit Website](https://nysakatyal-dotcom.github.io/web-development-projects/event-registration/)
+
+## 🤝 Connect With Me
+
+- **GitHub:** [@nysakatyal-dotcom](https://github.com/nysakatyal-dotcom)
 
 ---
 
-⭐ Thanks for visiting my repository!
+⭐ Thank you for visiting my repository!
+
+*Learning, coding, and improving one project at a time.* 🚀
